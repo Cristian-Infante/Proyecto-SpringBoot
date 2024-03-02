@@ -1,6 +1,9 @@
 # Documentación API Proyecto
 
-Esta documentación describe los endpoints disponibles en la API del Proyecto, permitiendo la gestión de clientes y productos.
+La API está construida con Spring Boot y utiliza una base de datos H2 en la cual persiste la información de los clientes y productos. Se exponen los siguientes endpoints para realizar operaciones CRUD sobre los clientes y productos.
+
+La inyección se realizó en una lista tanto para clientes como para productos, estando en los archivos `ClientesService.java` y `ProductosService.java` respectivamente.
+
 
 ## Clientes
 
@@ -43,6 +46,7 @@ Esta documentación describe los endpoints disponibles en la API del Proyecto, p
 - **Método HTTP:** DELETE
 - **URL:** `http://localhost:9090/api/clientes/{id}`
 - **Descripción:** Elimina el cliente con el ID especificado.
+
 
 ## Productos
 
