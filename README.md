@@ -1,6 +1,4 @@
-# Documentación API Proyecto
-
-Cristian Fabian Infante Canelo - Josehp Camilo Ramos Novoa
+# API Proyecto | Cristian Fabian Infante Canelo - Josehp Camilo Ramos Novoa
 
 La API está construida con Spring Boot y utiliza una base de datos H2 en la cual persiste la información de los clientes y productos. Se exponen los siguientes endpoints para realizar operaciones CRUD sobre los clientes y productos.
 
